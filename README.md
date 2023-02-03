@@ -1,2 +1,2 @@
-# Node_exam
+# node_exam
 Preparing for Nodejs certification
