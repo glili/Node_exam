@@ -1,0 +1,15 @@
+{
+  "name": "changeme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc -p src/",
+    "start": "npm run build & node build/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
