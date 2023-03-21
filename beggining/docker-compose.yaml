@@ -29,3 +29,6 @@ networks:
 # docker-compose up -d
 # docker-compose up
 # use containers name to access them by network
+
+# run node or npm cmd
+# docker run -ti -v $(pwd):/app --rm -w /app  a8f3e1772841 bash

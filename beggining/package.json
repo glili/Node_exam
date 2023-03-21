@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "tsc -p src/",
-    "start": "npm run build & node build/server.js"
+    "start": "rm -rf build/ && tsc -p src/ && node build/server.js"
   },
   "author": "",
   "license": "ISC",
