@@ -9,3 +9,5 @@ node
 
 
 # to install a dependency or a global module add it in docker file
+docker run -ti -v $(pwd):/app --rm -w /app  node:lts bash
+    npm install --save mydependency
