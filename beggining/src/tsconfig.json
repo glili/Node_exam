@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "module": "es2022",
-    "outDir": "../build"
+    "outDir": "../build",
+    "noEmitOnError": true,
+    "strictNullChecks": false
   }
 }

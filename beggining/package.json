@@ -5,11 +5,15 @@
   "main": "server.js",
   "scripts": {
     "build": "tsc -p src/",
-    "start": "rm -rf build/ && tsc -p src/ && node build/server.js"
+    "run": "rm -rf build/ && tsc -p src/ && node build/server.js",
+    "compile": "npm run build -- -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "n": "^9.0.1"
   }
 }
